@@ -1,0 +1,29 @@
+﻿___[MOD] AutomationServerTypeLibForDotNet.dll
+   |      M A N I F E S T
+   |___[NSP] AutomationServerTypeLibForDotNet
+   |   |___[INT] AutomationServerTypeLibForDotNet.CMyMath
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |      implements AutomationServerTypeLibForDotNet.IMyMath 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.CoClassAttribute::.ctor(class [mscorlib]System.Type) = ( 01 00 2D 41 75 74 6F 6D 61 74 69 6F 6E 53 65 72   // ..-AutomationSer ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 45 43 34 34 39 43 41 30 2D 42 45 31 41   // ..$EC449CA0-BE1A ...
+   |   |
+   |   |___[CLS] AutomationServerTypeLibForDotNet.CMyMathClass
+   |   |   |     .class public auto ansi import 
+   |   |   |      implements AutomationServerTypeLibForDotNet.IMyMath 
+   |   |   |      implements AutomationServerTypeLibForDotNet.CMyMath 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 34 34 45 41 35 30 31 46 2D 35 31 35 45   // ..$44EA501F-515E ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.ClassInterfaceAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.ClassInterfaceType) = ( 01 00 00 00 00 00 00 00 )  ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 02 00 00 00 00 00 )  ...
+   |   |   |___[MET] .ctor : void()
+   |   |   |___[MET] SubtractionOfTwoIntegers : int32(int32,int32)
+   |   |   |___[MET] SumOfTwoIntegers : int32(int32,int32)
+   |   |
+   |   |___[INT] AutomationServerTypeLibForDotNet.IMyMath
+   |   |   |     .class interface public abstract auto ansi import 
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.TypeLibTypeAttribute::.ctor(valuetype [mscorlib]System.Runtime.InteropServices.TypeLibTypeFlags) = ( 01 00 40 10 00 00 00 00 )                         // ..@..... ...
+   |   |   |     .custom instance void [mscorlib]System.Runtime.InteropServices.GuidAttribute::.ctor(string) = ( 01 00 24 45 43 34 34 39 43 41 30 2D 42 45 31 41   // ..$EC449CA0-BE1A ...
+   |   |   |___[MET] SubtractionOfTwoIntegers : int32(int32,int32)
+   |   |   |___[MET] SumOfTwoIntegers : int32(int32,int32)
+   |   |
+   |
+

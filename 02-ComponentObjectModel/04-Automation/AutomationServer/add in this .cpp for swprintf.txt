@@ -1,0 +1,3 @@
+#define UNICODE
+
+>cl.exe /c /EHsc /D UNICODE AutomationServerWithRegFile.cpp

@@ -1,0 +1,5 @@
+ONLY for 64bit dll
+
+cl.exe /c /EHsc /D REGISTER_PROXY_DLL AutomationProxyStubDllData.c AutomationProxyStub.c AutomationProxyStubGuids.c
+
+link.exe AutomationProxyStubDllData.obj AutomationProxyStub.obj AutomationProxyStubGuids.obj /DLL /DEF:AutomationProxyStub.def user32.lib gdi32.lib kernel32.lib ole32.lib oleaut32.lib rpcns4.lib rpcrt4.lib advapi32.lib /SUBSYSTEM:WINDOWS /MACHINE:X64

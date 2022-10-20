@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{9DEF60F9-50F2-4685-9E4E-7570E28D9F69}]
+@="MyComDll"
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{9DEF60F9-50F2-4685-9E4E-7570E28D9F69}\InprocServer32]
+@="C:\\Windows\\SysWOW64\\ClassFactoryDllServerWithRegFile.dll"

@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+;64 Bit Registry File for Main Automation Server
+
+;1
+[HKEY_CLASSES_ROOT\CLSID\{44EA501F-515E-4B8A-8786-238D4110A31E}]	;CLSID of MyMath Compo dll from server .h file
+@="MyComAutomationDll"
+
+;2
+[HKEY_CLASSES_ROOT\CLSID\{44EA501F-515E-4B8A-8786-238D4110A31E}\InprocServer32]	;CLSID of MyMath Compo dll from server .h file
+@="C:\\Windows\\System32\\AutomationServerWithRegFile.dll"
+
+;All following keys are created either by LoadRegTypeLib() alone or by LoadTypeLib() & RegisterTypeLib() in pair
+
+;3
+[HKEY_CLASSES_ROOT\CLSID\{44EA501F-515E-4B8A-8786-238D4110A31E}\TypeLib]	;CLSID of MyMath Compo dll from server .h file
+@="{F14C8E20-55B1-4F33-B518-B5E348534692}"	;LIBID of server's TypeLibrary from server .cpp file or .tlb file
+
+;4
+[HKEY_CLASSES_ROOT\TypeLib\{F14C8E20-55B1-4F33-B518-B5E348534692}]	;LIBID of server's TypeLibrary from server .cpp file or .tlb file
+@="MyComAutomationTypeLib"
+
+;5
+[HKEY_CLASSES_ROOT\TypeLib\{F14C8E20-55B1-4F33-B518-B5E348534692}\1.0]	;LIBID of server's TypeLibrary from server .cpp file or .tlb file
+@="MyComAutomationTypeLib v1.0"
+
+;6
+[HKEY_CLASSES_ROOT\TypeLib\{F14C8E20-55B1-4F33-B518-B5E348534692}\1.0\0\win32]	;LIBID of server's TypeLibrary from server .cpp file or .tlb file
+@="C:\\Windows\\System32\\AutomationServerTypeLib.tlb"
+
+;7
+[HKEY_CLASSES_ROOT\Interface\{EC449CA0-BE1A-4571-89B7-F2E6153CE243}]	;IID of IMyMath from server .h file
+@="IMyMath"
+
+;8
+[HKEY_CLASSES_ROOT\Interface\{EC449CA0-BE1A-4571-89B7-F2E6153CE243}\TypeLib]	;IID of IMyMath from server .h file
+@="{F14C8E20-55B1-4F33-B518-B5E348534692}"	;LIBID of server's TypeLibrary from server .cpp file or .tlb file
+
+;9
+[HKEY_CLASSES_ROOT\Interface\{EC449CA0-BE1A-4571-89B7-F2E6153CE243}\ProxyStubClsid32]	;IID of IMyMath from server .h file
+@="{00020424-0000-0000-C000-000000000046}"	;hardcoded default IID of PSOA Interface
+
+;10
+[HKEY_CLASSES_ROOT\Interface\{EC449CA0-BE1A-4571-89B7-F2E6153CE243}\ProxyStubClsid]	;IID of IMyMath from server .h file
+@="{00020424-0000-0000-C000-000000000046}"	;hardcoded default IID of PSOA Interface

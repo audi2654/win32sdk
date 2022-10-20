@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{06C78215-A104-4B2F-A421-9118B53DA0FF}]
+@="OuterComDll_Aggregation"
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{06C78215-A104-4B2F-A421-9118B53DA0FF}\InprocServer32]
+@="C:\\Windows\\SysWOW64\\AggregationOuterComponentWithRegFile.dll"
+
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{AB4407FD-3F9B-414F-8B76-5233B6E63A14}]
+@="InnerComDll_Aggregation"
+[HKEY_CLASSES_ROOT\WOW6432Node\CLSID\{AB4407FD-3F9B-414F-8B76-5233B6E63A14}\InprocServer32]
+@="C:\\Windows\\SysWOW64\\AggregationInnerComponentWithRegFile.dll"
