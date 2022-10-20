@@ -1,0 +1,1 @@
+H:\Microsoft Visual Studio\2019\Community\MyProjects - WinDev2021\04-UWP\05-NoGrid,Page,AppHelloWorld\HelloWorldGUI\HelloWorldGUI.vcxproj;x86

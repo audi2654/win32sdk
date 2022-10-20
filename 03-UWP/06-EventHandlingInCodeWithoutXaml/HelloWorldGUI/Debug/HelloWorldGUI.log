@@ -1,0 +1,4 @@
+﻿  MyPage.cpp
+MyPage.obj : error LNK2019: unresolved external symbol "public: void __cdecl MyPage::OnKeyDown(class Windows::UI::Core::CoreWindow ^,class Windows::UI::Core::KeyEventArgs ^)" (?OnKeyDown@MyPage@@Q$AAAXP$AAVCoreWindow@Core@UI@Windows@@P$AAVKeyEventArgs@345@@Z) referenced in function "public: __cdecl MyPage::MyPage(void)" (??0MyPage@@Q$AAA@XZ)
+MyPage.obj : error LNK2019: unresolved external symbol "public: void __cdecl MyPage::OnButtonClick(class Platform::Object ^,class Windows::UI::Xaml::RoutedEventArgs ^)" (?OnButtonClick@MyPage@@Q$AAAXP$AAVObject@Platform@@P$AAVRoutedEventArgs@Xaml@UI@Windows@@@Z) referenced in function "public: __cdecl MyPage::MyPage(void)" (??0MyPage@@Q$AAA@XZ)
+H:\Microsoft Visual Studio\2019\Community\MyProjects - WinDev2021\04-UWP\07-EventHandlingInCodeWithoutXaml\HelloWorldGUI\Debug\HelloWorldGUI\HelloWorldGUI.exe : fatal error LNK1120: 2 unresolved externals
